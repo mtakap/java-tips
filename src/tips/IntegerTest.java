@@ -1,4 +1,4 @@
-﻿package tips;
+package tips;
 
 public class IntegerTest {
 
