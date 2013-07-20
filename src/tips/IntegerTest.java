@@ -12,7 +12,7 @@ public class IntegerTest {
 		System.out.println("Hex String: " + str);
 		
 		// 文字列 "AAAAAAAA" は符号なしの場合 Integer.MAX_VALUE より大きい。
-		// よってint型への再変換には、Long#parseLong(long)で解析後、int型にキャストする。
+		// よってint型への再変換には、Long#parseLong(String, int)で解析後、int型にキャストする。
 		id_32bit = (int) Long.parseLong(str, 16);
 		
 		// 以下は例外がスローされる。
